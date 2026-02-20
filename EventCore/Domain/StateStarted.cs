@@ -1,5 +1,3 @@
 namespace EventCore.Domain;
 
-public class StateStarted : IDomainEvent
-{
-}
+public record StateStarted(Guid AggregateId, DateTime OccurredOn) : IDomainEvent;

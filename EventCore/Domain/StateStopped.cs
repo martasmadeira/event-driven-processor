@@ -1,5 +1,3 @@
 namespace EventCore.Domain;
 
-public class StateStopped : IDomainEvent
-{
-}
+public record StateStopped(Guid AggregateId, DateTime OccurredOn)  : IDomainEvent;
