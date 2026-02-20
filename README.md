@@ -4,8 +4,7 @@ EventCore is a .NET 8 Web API project that serves as the structural scaffold for
 
 ## Project Goal
 
-The goal of this project is to provide a clean, domain-driven folder structure for building an event-driven state processing system. It contains only empty placeholder types — no business logic is implemented.
-
+The goal of this project is to provide a clean, domain-driven folder structure for building an event-driven state processing system.
 ## Folder Structure
 
 ```
