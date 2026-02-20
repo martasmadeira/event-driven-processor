@@ -1,0 +1,6 @@
+@EventCore_HostAddress = http://localhost:5109
+
+GET {{EventCore_HostAddress}}/state/
+Accept: application/json
+
+###
